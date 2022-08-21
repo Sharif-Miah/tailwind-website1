@@ -1,4 +1,10 @@
 
+document.getElementById('page-btn').addEventListener('click', function () {
+    window.location.href = 'http://127.0.0.1:5501/cart.html'
+})
+
+
+
 /****** function start *******/
 
 function shopNow(element) {
@@ -13,6 +19,14 @@ function getElement(getId, num) {
 }
 
 /****** function end *******/
+
+/****** Next Page start *******/
+
+document.getElementById('next-page').addEventListener('click', function () {
+    window.location.href = 'http://127.0.0.1:5501/shop.html';
+})
+
+/****** Next Page  end *******/
 
 document.getElementById('jecket1').addEventListener('click', function () {
     const shopButton1 = shopNow('page-btn');
